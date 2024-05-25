@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace AlmoxarifadoDomain.Models
 {
-    public class Grupo
+    public class Estoque
     {
-        public int ID_GRU { get; set; }
-        public string NOME_GRU { get; set; }
-        public string? SUGESTAO_GRU { get; set; }
+        public int ID_SEC { get; set; }
+        public int ID_PRO { get; set; }
+        public decimal QTD_PRO { get; set; }
     }
 }
-

@@ -1,34 +1,56 @@
 using AlmoxarifadoInfrastructure.Data;
+using AlmoxarifadoInfrastructure.Data.Connections;
 using AlmoxarifadoInfrastructure.Data.Interfaces;
+using AlmoxarifadoInfrastructure.Data.Logging;
 using AlmoxarifadoInfrastructure.Data.Repositories;
-using AlmoxarifadoServices;
+using AlmoxarifadoServices.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+string primaryConnectionString = builder.Configuration.GetConnectionString("ConexaoDBSQL");
+string replicaConnectionString = builder.Configuration.GetConnectionString("ConexaoReplicaSQL");
+
+var strategies = new List<IDbConnectionStrategy>
+{
+    new PrimaryDbConnectionStrategy(primaryConnectionString),
+    new ReplicaDbConnectionStrategy(replicaConnectionString)
+};
+
+var dbConnectionManager = new DbConnectionManager(strategies);
+string activeConnectionString = dbConnectionManager.GetActiveConnectionString();
+
 builder.Services.AddDbContext<ContextSQL>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoDBSQL")));
+    options.UseSqlServer(activeConnectionString));
 
 //Carregando Classes de Repositories
-builder.Services.AddScoped<GrupoService>();
-builder.Services.AddScoped<IGrupoRepository,GrupoRepository>();
+builder.Services.AddScoped<NotaFiscalService>();
+builder.Services.AddScoped<INotaFiscalRepository, NotaFiscalRepository>();
+builder.Services.AddScoped<ItensNotaService>();
+builder.Services.AddScoped<IItensNotaRepository, ItensNotaRepository>();
 
+builder.Services.AddScoped<RequisicaoService>();
+builder.Services.AddScoped<IRequisicaoRepository, RequisicaoRepository>();
+builder.Services.AddScoped<ItensRequisicaoService>();
+builder.Services.AddScoped<IItensRequisicaoRepository, ItensRequisicaoRepository>();
 
+builder.Services.AddScoped<IEstoqueRepository, EstoqueRepository>();
+builder.Services.AddScoped<EstoqueService>(); 
+
+builder.Services.AddScoped<EntradaProdutoService>();
+builder.Services.AddScoped<SaidaProdutosService>();
+
+builder.Services.AddScoped<ILogStrategy, CsvLogStrategy>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 

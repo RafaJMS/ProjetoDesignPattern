@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace AlmoxarifadoInfrastructure.Data.Interfaces
 {
-    public interface IGrupoRepository
+    public interface IEstoqueRepository
     {
-        List<Grupo> ObterTodosGrupos();
-        Grupo ObterGrupoPorId(int id);
-
-        Grupo CriarGrupo(Grupo grupo);
+        Estoque ObterEstoquePorID(int ID_PRO, int ID_SEC);
+        void AtualizarEstoque(Estoque Estoque);
     }
 }
