@@ -1,0 +1,16 @@
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Release\net6.0\AlmoxarifadoInfrastructure.deps.json
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Release\net6.0\AlmoxarifadoInfrastructure.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Release\net6.0\AlmoxarifadoInfrastructure.pdb
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Release\net6.0\AlmoxarifadoDomain.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\bin\Release\net6.0\AlmoxarifadoDomain.pdb
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\AlmoxarifadoInfrastructure.csproj.AssemblyReference.cache
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\AlmoxarifadoInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\AlmoxarifadoInfrastructure.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\AlmoxarifadoInfrastructure.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\AlmoxarifadoInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\AlmoxarifadoInfrastructure.sourcelink.json
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\Almoxari.098DBE06.Up2Date
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\AlmoxarifadoInfrastructure.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\refint\AlmoxarifadoInfrastructure.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\AlmoxarifadoInfrastructure.pdb
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoInfrastructure\obj\Release\net6.0\ref\AlmoxarifadoInfrastructure.dll

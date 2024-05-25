@@ -43,10 +43,10 @@ namespace AlmoxarifadoAPI.Controllers
                 var itemRequisicao = _itensRequisicaoService.CriarItemRequisicao(itemRequisicaoPostDTO);
                 return Ok(itemRequisicao);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                return StatusCode(500, "Ocorreu um erro ao acessar os dados. Por Favor tente novamente");
+                return StatusCode(500, "Ocorreu um erro ao acessar os dados. ERRO:"+ ex.Message);
             };
         }
 

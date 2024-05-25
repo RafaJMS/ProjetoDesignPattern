@@ -5,6 +5,7 @@ using AlmoxarifadoInfrastructure.Data.Logging;
 using AlmoxarifadoInfrastructure.Data.Repositories;
 using AlmoxarifadoServices.Services;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -51,6 +52,18 @@ var app = builder.Build();
 app.UseSwagger();
 
 app.UseSwaggerUI();
+
+var url = "https://localhost:7062/swagger/index.html";
+if(!app.Environment.IsDevelopment())
+{
+    Process.Start(new ProcessStartInfo
+    {
+        FileName = url,
+        UseShellExecute = true
+    });
+}
+
+
 
 app.UseHttpsRedirection();
 

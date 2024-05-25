@@ -40,6 +40,8 @@ namespace AlmoxarifadoServices.Services
                     QTD_PRO = itemNota.QTD_PRO,
                     PRE_UNIT = itemNota.PRE_UNIT,
                     EST_LIN = itemNota.EST_LIN,
+                    ID_NOTA = itemNota.ID_NOTA,
+                    ID_SEC = itemNota.ID_SEC,
                 }
             );
             ItensNotaGetDTO itensNotaGet = new()
