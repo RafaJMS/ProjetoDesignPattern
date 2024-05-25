@@ -20,3 +20,15 @@ C:\Users\professor.cetafest\Documents\GitRegymatrix\almoxarifadoback\src\srcBack
 C:\Users\professor.cetafest\Documents\GitRegymatrix\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\refint\AlmoxarifadoDomain.dll
 C:\Users\professor.cetafest\Documents\GitRegymatrix\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\AlmoxarifadoDomain.pdb
 C:\Users\professor.cetafest\Documents\GitRegymatrix\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\ref\AlmoxarifadoDomain.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\bin\Debug\net6.0\AlmoxarifadoDomain.deps.json
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\bin\Debug\net6.0\AlmoxarifadoDomain.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\bin\Debug\net6.0\AlmoxarifadoDomain.pdb
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\AlmoxarifadoDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\AlmoxarifadoDomain.AssemblyInfoInputs.cache
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\AlmoxarifadoDomain.AssemblyInfo.cs
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\AlmoxarifadoDomain.csproj.CoreCompileInputs.cache
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\AlmoxarifadoDomain.sourcelink.json
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\AlmoxarifadoDomain.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\refint\AlmoxarifadoDomain.dll
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\AlmoxarifadoDomain.pdb
+C:\Users\rafae\OneDrive\Documentos\GitHub\ProjetoDesignPattern\almoxarifadoback-main\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoDomain\obj\Debug\net6.0\ref\AlmoxarifadoDomain.dll

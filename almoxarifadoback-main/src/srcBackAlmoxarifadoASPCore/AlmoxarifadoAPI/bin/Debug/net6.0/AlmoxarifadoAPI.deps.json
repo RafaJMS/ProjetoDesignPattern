@@ -27,6 +27,14 @@
           }
         }
       },
+      "CsvHelper/32.0.3": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "32.0.0.0",
+            "fileVersion": "32.0.3.22"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Data.SqlClient/2.1.7": {
         "dependencies": {
@@ -486,6 +494,7 @@
       "AlmoxarifadoInfrastructure/1.0.0": {
         "dependencies": {
           "AlmoxarifadoDomain": "1.0.0",
+          "CsvHelper": "32.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.29"
         },
         "runtime": {
@@ -515,6 +524,13 @@
       "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
       "path": "automapper/13.0.1",
       "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "CsvHelper/32.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JNDkd4Wc2Tim5IuyL8Ai13RhzRvaHItseEvlJ2YRkx2SMBFrIsW8a5+/o4/O1jsb6mlviihR6Hfyn+nqY6CurA==",
+      "path": "csvhelper/32.0.3",
+      "hashPath": "csvhelper.32.0.3.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

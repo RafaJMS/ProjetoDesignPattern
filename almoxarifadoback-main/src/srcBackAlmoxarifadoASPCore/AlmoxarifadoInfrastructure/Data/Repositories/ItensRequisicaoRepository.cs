@@ -4,7 +4,6 @@ using AlmoxarifadoInfrastructure.Data.Interfaces;
 using AlmoxarifadoInfrastructure.Data.Logging;
 using AlmoxarifadoServices.Observer;
 using AlmoxarifadoServices.Services;
-using CsvHelper;
 using System;
 using System.Collections.Generic;
 using System.Globalization;

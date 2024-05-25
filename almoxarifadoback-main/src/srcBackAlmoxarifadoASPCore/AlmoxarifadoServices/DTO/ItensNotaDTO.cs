@@ -1,5 +1,4 @@
-﻿using AlmoxarifadoServices.Observer;
-
+﻿
 namespace AlmoxarifadoServices.DTO
 {
     public class ItensNotaPostDTO
